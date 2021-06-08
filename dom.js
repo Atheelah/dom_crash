@@ -30,7 +30,7 @@ function addItem(e) {
   deleteBtn.className = "btn btn-danger btn-sm float-right delete";
 
   // Append text node
-  deleteBtn.appendChild(document.createTextNode("clear"));
+  deleteBtn.appendChild(document.createTextNode("X"));
 
   // Append button to li
   li.appendChild(deleteBtn);

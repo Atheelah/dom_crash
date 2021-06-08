@@ -1,6 +1,19 @@
-#header-title {
-  background-color: aquamarine;
-}
 .title {
   background-color: aquamarine;
+  color: white;
+  font-family: sans-serif;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  background-color: aquamarine;
+  color: white;
+  font-family: sans-serif;
+}
+.form-control {
+  margin-top: 10%;
+}
+.btn-danger {
+  background-color: red;
+  border-radius: 30%;
 }
